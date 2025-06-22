@@ -71,12 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Button click handlers
-    const contactButtons = document.querySelectorAll('.contact-btn, .mobile-contact-btn, .btn-secondary');
-    contactButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            alert('Contact form would open here!');
-        });
-    });
+
     
     const cvButton = document.querySelector('.btn-primary');
     if (cvButton) {
