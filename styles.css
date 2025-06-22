@@ -1034,6 +1034,19 @@ html {
     background-color: #0f0f0f;
     color: #fff;
 }
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .project-image {
+        height: auto;
+        aspect-ratio: 4 / 3;
+    }
+}
 
 .project-grid {
     display: grid;
