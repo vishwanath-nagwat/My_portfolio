@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Button click handlers
 
-    /*
+/*
     const cvButton = document.querySelector('.btn-primary');
     if (cvButton) {
         cvButton.addEventListener('click', function() {
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert(`Opening blog post: "${title}"`);
         });
     });
-    */
+*/
     
     // Intersection Observer for fade-in animations
     const observerOptions = {
