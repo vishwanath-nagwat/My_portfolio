@@ -72,16 +72,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Button click handlers
 
-    
+    /*
     const cvButton = document.querySelector('.btn-primary');
     if (cvButton) {
         cvButton.addEventListener('click', function() {
             alert('CV download would start here!');
         });
     }
-    /*
+
     const readMoreButtons = document.querySelectorAll('.read-more');
-    /*
+
     readMoreButtons.forEach(button => {
         button.addEventListener('click', function() {
             const title = this.closest('.blog-content').querySelector('.blog-post-title').textContent;
