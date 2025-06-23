@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('CV download would start here!');
         });
     }
-    
+    /*
     const readMoreButtons = document.querySelectorAll('.read-more');
     /*
     readMoreButtons.forEach(button => {
