@@ -1123,3 +1123,46 @@ html {
   align-items: center;
   font-size: 16px;
 }
+.project-image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+    height: 20rem;
+    background: #ef4444;
+    border-radius: 50%;
+    opacity: 0.05;
+    filter: blur(60px);
+    z-index: -1; /* ✅ Yeh line add karo */
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1; /* ✅ Yeh line add karo */
+}
+
+.hero-buttons {
+    z-index: 1; /* ✅ Button ke liye bhi */
+}
+
+
+
+
+
+    
+
