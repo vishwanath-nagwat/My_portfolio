@@ -40,4 +40,6 @@ def nature():
 #     return render_template('index.html')
 
 
-app.run(host="0.0.0.0", port=port, debug=False)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))  # Agar Render ne PORT set na kiya ho to 5000 use kare
+    app.run(host="0.0.0.0", port=port, debug=False)
